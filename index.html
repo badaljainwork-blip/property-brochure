@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>property-brochure</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Brochure</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f7f7f7;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .cta {
+      margin-top: 30px;
+      padding: 15px;
+      background: #0a66c2;
+      color: white;
+      text-align: center;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Premium Property Brochure</h1>
+    <p>
+      This is a static brochure hosted on Vercel.
+      It loads instantly and works without any framework.
+    </p>
+
+    <ul>
+      <li>Prime residential location</li>
+      <li>Family-friendly surroundings</li>
+      <li>Schools, parks & daily conveniences nearby</li>
+    </ul>
+
+    <div class="cta">
+      Contact for pricing & site visit
+    </div>
+  </div>
+</body>
 </html>
